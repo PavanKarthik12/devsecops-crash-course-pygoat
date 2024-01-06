@@ -2,7 +2,7 @@ name: CI
 on: 
   push:
     branches:
-      main
+      - main
 jobs:
   sast_scan_job:
     runs-on: ubuntu-lates
