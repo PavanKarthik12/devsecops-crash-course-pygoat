@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
 jobs:
   sast_scan_job:
     runs-on: ubuntu-lates
